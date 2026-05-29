@@ -21,13 +21,36 @@
       border-radius: 12px;
       box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
     }
+    .images-row {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    .images-row img {
+      width: 320px;
+      max-width: 45%;
+    }
   </style>
 </head>
 <body>
   <h1>Python</h1>
-  <img
-    src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Python.svg"
-    alt="Python snake"
-  />
+  <div class="images-row">
+    <figure>
+      <img src="PythonSnake-a-.avif" alt="Local Python snake" />
+      <figcaption>PythonSnake-a-.avif</figcaption>
+    </figure>
+
+    <figure>
+      <img src="PythonSnake-b-.jpg" alt="Hero SVG" />
+      <figcaption>PythonSnake-b-.jpg</figcaption>
+    </figure>
+
+    <figure>
+      <img src="https://www.python.org/static/community_logos/python-logo.png" alt="Python logo" />
+    </figure>
+  </div>
 </body>
 </html>
